@@ -4,10 +4,10 @@
   "description": "",
   "main": "compile.js",
   "directories": {
-    "test": "mocha"
+    "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/JuanBrundi/smart-contract-solidity#readme",
   "dependencies": {
-    "ganache-cli": "^6.12.2",
+    "ganache": "^7.9.2",
     "mocha": "^10.2.0",
     "solc": "0.8.19",
     "web3": "^4.3.0"
