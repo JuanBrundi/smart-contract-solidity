@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/JuanBrundi/smart-contract-solidity#readme",
   "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
     "ganache": "^7.9.2",
     "mocha": "^10.2.0",
     "solc": "0.8.19",
